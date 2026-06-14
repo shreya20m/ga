@@ -7,7 +7,7 @@ pipeline{
 	stages{
 		stage('checkout'){
 			steps{
-				git branch:'master', url:'https://github.com/shreya20m/My.git'
+				git branch:'master', url:'https://github.com/shreya20m/ga.git'
 			}
 			}
 		stage('build'){
